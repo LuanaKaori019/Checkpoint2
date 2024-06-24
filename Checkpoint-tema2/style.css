@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-image: url(./assets/img/4.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover; 
+    background-position: center;
+    height: 236px;
+    flex-direction: column;
+    align-items: center; /
+    
+}
+.navar {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    margin-bottom: 82px;
+    width: 100%;
+    gap: 182px;
+    margin-top: -59px
+}
+.navar a{
+    margin: 34px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  transition: color 0.3s ease; 
+  }
+
+.navar a:hover {
+    color: green; 
+}
+
+h1 {
+    font-size: 24px; 
+    color: white; 
+    font-size: 2em;
+}
+h1 span.Q {
+    color: #00ff0d; 
+}
+
+
+h1 span.T {
+    color: #00ff00; 
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.imagen-container {
+    display: inline-block;
+    text-align: left;
+    margin: 70px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 15px 0; 
+    width: 200px;
+}
+.imagen-container img {
+    width: 100%;
+    height: 130px;
+  
+}
+
+.imagen-container .content {
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background-color: white; 
+    padding: 10px;
+    text-align: left; 
+}
+
+li{
+    margin-left: 23px;
+}
+h4{
+    margin-top: 20px;
+    font-family: serif;
+    text-align: center;
+    font-size: 180px;
+    margin-bottom: -33px;
+    color: #62b700;
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #62b700
+}
+
+.form {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+fieldset {
+    text-align: center; 
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 14px;
+    margin-top: 7px;
+    padding: 4px;
+
+}
+
+.form-group {
+    display: flex; 
+    align-items: left; 
+}
+
+label {
+    margin-right: 10px; 
+    color: black;
+}
+
+input [type="email"] {
+    width: 250px; 
+    padding: 1px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+}
+
+legend{
+    color: black;
+    }
+    @media (max-width: 300px) {
+
+        header {
+            height: 180px; 
+        }
+    
+        .navar {
+            height: 40px; 
+            margin-bottom: 40px; 
+        }
+    
+        .navar a {
+            margin: 10px; 
+            font-size: 12px; 
+        }
+    
+        h1 {
+            font-size: 16px; 
+        }
+    
+        main {
+            flex-direction: column; 
+        }
+    
+        .imagen-container {
+            margin: 20px 0; 
+            width: 100%;
+        }
+    
+        .imagen-container img {
+            height: auto; 
+        }
+    
+        h4 {
+            font-size: 50px; 
+            margin-bottom: -10px
+        }
+    
+        h3 {
+            font-size: 12px; 
+        }
+    
+        .footer {
+            flex-direction: column; 
+        }
